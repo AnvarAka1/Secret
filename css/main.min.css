@@ -14300,6 +14300,34 @@ body {
     margin: 0;
     font-family: "kaushanScript", sans-serif; }
 
+.top {
+  position: fixed;
+  bottom: 25px;
+  right: -100px;
+  background-color: #e0e0e0;
+  z-index: 12;
+  -webkit-border-radius: 10em;
+          border-radius: 10em;
+  color: #666;
+  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  opacity: .5;
+  opacity: 1; }
+  .top i {
+    line-height: 0; }
+  .top:hover {
+    color: #fff;
+    background-color: #FFC000; }
+  .top.active {
+    right: 25px; }
+
 body .mm-menu_offcanvas {
   z-index: 2000; }
 
@@ -14835,7 +14863,9 @@ body .collapse .navbar-nav .nav-item .nav-link {
       .home-fifth .carousel-block .text-wrapper .bottom ul {
         margin-left: 10px; }
         .home-fifth .carousel-block .text-wrapper .bottom ul li {
-          font-size: 12px; } }
+          font-size: 12px; }
+  .f-footer .sign-info {
+    margin-top: 15px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
